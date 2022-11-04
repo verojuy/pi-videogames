@@ -1,0 +1,16 @@
+.paginado li{
+padding: 5px 5px;
+display: inline;
+text-decoration: none;
+
+}
+.btn_paginado{
+  cursor: pointer;
+  color:white;
+  background-color: rgba(221, 146, 250, 0.726); 
+  font-size: 15px;
+  padding: 15px;
+  text-decoration: none;
+  box-shadow: inset 0 0 10px rgb(20, 220, 255), 0 0 10px rgb(20, 239, 255);
+
+}

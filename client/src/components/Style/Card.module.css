@@ -1,0 +1,35 @@
+
+
+.card_btn {
+  color: rgb(7, 7, 7);
+  background-color: rgba(221, 146, 250, 0.726);
+  border: 1px rgb(46, 43, 236) solid;
+  box-shadow: inset 0 0 10px rgb(20, 220, 255), 0 0 10px rgb(20, 239, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Finlandica";
+ margin: 20px;
+ 
+  width: 21rem;
+  height: 25rem;
+}
+
+
+.card_btn:hover {
+  color: white;
+  margin-top: -30px;
+  background-color: rgba(111, 217, 243, 0.726);
+  box-shadow: inset 0 0 20px rgb(247, 20, 255), 0 0 20px rgb(20, 255, 243);
+}
+.datos_card{
+margin-top: 20%;
+}
+.datos_card h4{
+font-size: 20px;
+color:white ;
+}
+.nombre_card{
+  text-decoration: none;
+  color: white;
+
+}

@@ -1,0 +1,66 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.title {
+  font-family: "Press Start 2p";
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  font-size: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.title2 {
+  font-family: "Press Start 2p";
+  display: flex;
+  flex-direction: column;
+  color: rgb(186, 22, 228);
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 20%;
+}
+.container {
+  background-image: url("../../assest/img/foto.avif");
+  height: 97vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  font-family: "Press Start 2p";
+  font-size: 20pt;
+  text-align: left;
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+  background-color: hsl(175, 90%, 70%);
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  border-color: transparent;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em gray;
+  cursor: pointer;
+  top: 75%;
+  left: 30%; 
+  position: absolute;
+ 
+}
+/* .bot_btn{
+  height: 200px;
+  width: 50%;
+  background-color: blueviolet;
+
+  margin-top: 500px;
+} */
+  

@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Press Start 2p";
+  display: flex;
+  flex-direction: column;
+  color: rgb(236, 46, 46);
+  position: relative;
+  background-color: rgb(235, 35, 152);
+  position: absolute;
+  top: 50%;
+}
+.title2 {
+  font-family: "Press Start 2p";
+  display: flex;
+  flex-direction: column;
+  color: rgb(186, 22, 228);
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 20%;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  font-family: "Press Start 2p";
+  font-size: 20pt;
+  text-align: left;
+  display: inline-block;
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px 0 10px 10px;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em gray;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+.start-btn:active {
+  box-shadow: none;
+  position: sticky;
+  top: 0.2em;
+}

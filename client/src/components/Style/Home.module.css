@@ -1,0 +1,88 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+/* .home {
+  position: relative;
+} */
+.text {
+  color: whitesmoke;
+  text-shadow: 0 0 5px deeppink, 0 0 5px rgb(43, 20, 255);
+}
+.line {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-shadow: 0 0 5px deeppink;
+}
+
+
+.volver_btn {
+  color: rgb(122, 20, 255);
+  background-color: rgba(0, 0, 0, 0.26);
+  border: 1px rgb(216, 20, 255) solid;
+  box-shadow: inset 0 0 10px rgba(161, 20, 255, 0.541),
+    0 0 10px rgb(20, 247, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Finlandica";
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.volver_btn:hover {
+  color: white;
+  background-color: rgb(20, 122, 255);
+  box-shadow: inset 0 0 20px rgb(247, 20, 255), 0 0 20px rgb(20, 255, 243);
+}
+.filt_btn {
+  color: rgb(20, 255, 224);
+  background-color: rgba(0, 0, 0, 0.952);
+  border: 1px rgba(20, 255, 255, 0.938) solid;
+  box-shadow: inset 0 0 10px rgb(20, 255, 243), 0 0 10px rgb(36, 20, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Finlandica";
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.filt_btn:hover {
+  color: white;
+  background-color: rgba(116, 44, 252, 0.726);
+  box-shadow: inset 0 0 20px rgb(99, 89, 240), 0 0 20px rgb(36, 20, 255);
+}
+.cards{
+  margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav_home{
+  height: 40px;
+  width: 100%;
+  padding-top: 5px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:right;
+  color: rgb(20, 255, 224);
+  background-color: rgba(0, 0, 0, 0.952);
+  border: 1px rgba(20, 255, 255, 0.938) solid;
+  box-shadow: inset 0 0 10px rgb(20, 255, 243), 0 0 10px rgb(36, 20, 255);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "Finlandica";
+  font-weight: 700;
+  margin-left: 5px;
+
+
+}
+.creados{
+  margin-left: 150px;
+  
+
+}
+
